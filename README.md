@@ -11,4 +11,6 @@ Installation:
 * Restart Fail2Ban with: `service fail2ban restart`
 * Please consider using [mod_cloudflare](https://github.com/cloudflare/mod_cloudflare) on Apache2 servers to make sure you are using the correct IP address as the client IP address.
 
+**Be sure to review the issue about [permissions assigned to your CloudFlare token](https://github.com/wpkc/fail2ban-action-cloudflare-restv4-bearer-token/issues/1).  If not, you may get authentication errors.**
+
 More info: <https://www.kazimer.com/fail2ban-cloudflare-action-using-authorization-bearer-token/>
